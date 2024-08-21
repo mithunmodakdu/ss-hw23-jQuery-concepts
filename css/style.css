@@ -91,3 +91,39 @@
     background-color: red;
     margin-bottom: 10px;
 }
+
+.slide{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.slide_click{
+font-size: larger;
+font-weight: 700;
+cursor: pointer;
+}
+.slide_panel{
+    display: none;
+}
+.con{
+    height: 300px;
+    position: relative;
+    
+}
+.animate_element{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+}
+.animate_element1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin-top: 30px;
+    position: absolute;
+}
