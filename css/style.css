@@ -1,0 +1,93 @@
+#fadeIn{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: none;
+    margin-bottom: 10px;
+}
+
+#fadeInFast{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    display: none;
+    margin-bottom: 10px;
+}
+
+#fadeInSlow{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    display: none;
+    margin-bottom: 10px;
+}
+
+#fadeInMilliSeconds{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: none;
+    margin-bottom: 10px;
+}
+
+#fadeOut{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+#fadeOutFast{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin-bottom: 10px;
+}
+
+#fadeOutSlow{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin-bottom: 10px;
+}
+
+#fadeOutMilliSeconds{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+#fadeToggle{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+#fadeToggleFast{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin-bottom: 10px;
+}
+
+#fadeToggleSlow{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin-bottom: 10px;
+}
+
+#fadeToggleMilliSeconds{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+.fadeTo{
+    height: 100px;
+    width: 500px;
+    background-color: red;
+    margin-bottom: 10px;
+}
