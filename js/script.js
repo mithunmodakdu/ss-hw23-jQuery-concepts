@@ -162,22 +162,22 @@ $(document).ready(function(){
         $("#slide_down_milliseconds_panel").slideDown(6000);
     });
 
-    // example-30
+    // example-31
     $('#slide_up_slow_click').on('click', function(){
         $('#slide_up_slow_panel').slideUp('slow');
     });
 
-    // example-31
+    // example-32
     $('#slide_toggle_slow_click').on('click', function(){
         $('#slide_toggle_slow_panel').slideToggle('slow');
     });
 
-    // example-32
+    // example-33
     $('.animate_single_property_btn').on('click', function(){
         $('.animate_single_property').animate({left: '1000px'});
     });
 
-    // example-33
+    // example-34
     $('.animate_multiple_properties_btn').on('click', function(){
         $('.animate_multiple_properties').animate(
             {left: '800px',
@@ -188,7 +188,7 @@ $(document).ready(function(){
         );
     });
 
-    // example-34
+    // example-35
     $('.animate_relativeValue_properties_btn').on('click', function(){
         $('.animate_relativeValue_properties').animate(
             {left: '500px',
@@ -198,7 +198,7 @@ $(document).ready(function(){
         );
     });
 
-    // example-35
+    // example-36
     $('.animate_toggleValue_properties_btn').on('click', function(){
         $('.animate_toggleValue_properties').animate(
             {height: 'toggle'
@@ -206,7 +206,7 @@ $(document).ready(function(){
         );
     });
 
-    // example-36
+    // example-37
     $('.multiple_animate_btn').on('click', function(){
         var div = $('.multiple_animate');
         div.animate({height: '200px', opacity: '0.4'}, 'slow');
@@ -215,7 +215,7 @@ $(document).ready(function(){
         div.animate({height: '50px', opacity: '0.8'}, 'slow');
     });
 
-    // example-37
+    // example-38
     $('.multiple_animate_withText_btn').on('click', function(){
         var div = $('.multiple_animate_withText');
        div.animate({left: '200px', width: '200px'}, 'slow');
@@ -223,29 +223,34 @@ $(document).ready(function(){
         
     });
 
-    // example-38
+    // example-39
     $('.chaining_btn').on('click', function(){
         $('.chaining_text').css('color', 'red').slideUp(2000).slideDown(2000);
     })
 
-    // example-39
+    // example-40
     $('#text_btn').on('click', function(){
         alert($('#text_content').text());
     }),
 
-    // example-40
+    // example-41
     $('#html_btn').on('click', function(){
         alert($('#html_content').html());
     });
 
-    // example-41
+    // example-43
     $('#value_btn').on('click', function(){
         alert($('#value_input').val());
     });
 
-    // example-42
+    // example-44
     $('#attr_btn').on('click', function(){
         alert($('#attr_a').attr('href'));
+    });
+
+    // example-45
+    $('#setText_btn').on('click', function(){
+        $('#setText_content').text('This is new text');
     });
 
   
