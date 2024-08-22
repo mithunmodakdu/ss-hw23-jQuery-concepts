@@ -228,6 +228,26 @@ $(document).ready(function(){
         $('.chaining_text').css('color', 'red').slideUp(2000).slideDown(2000);
     })
 
+    // example-39
+    $('#text_btn').on('click', function(){
+        alert($('#text_content').text());
+    }),
+
+    // example-40
+    $('#html_btn').on('click', function(){
+        alert($('#html_content').html());
+    });
+
+    // example-41
+    $('#value_btn').on('click', function(){
+        alert($('#value_input').val());
+    });
+
+    // example-42
+    $('#attr_btn').on('click', function(){
+        alert($('#attr_a').attr('href'));
+    });
+
   
 
   
